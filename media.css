@@ -1,0 +1,138 @@
+@media (max-width: 1100px) {
+    ul {
+        width: 35vw;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-pic {
+        width: 100%;
+        height: 350px;
+        margin: 3rem 0 0 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .featured-pic-box {
+        height: 250px;
+    }
+
+    .article-grid {
+        grid-template-areas:
+            "article article"
+            "article article"
+            "article article";
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+
+    label {
+        display: block;
+    }
+
+    .hamburger-menu {
+        width: 1.5rem;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+        padding: 5vw;
+        position: absolute;
+        top: 6rem;
+        left: 5vw;
+        background-color: #04121f;
+        border: 0 solid white;
+        border-radius: 10px;
+        box-shadow: #64646f33 0px 7px 29px 0px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    ul,
+    nav button {
+        display: none;
+    }
+
+    .latest-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featured-pic-box {
+        width: 100%;
+        margin: 0 0 3rem 0;
+    }
+
+    .featured-content {
+        width: 100%;
+    }
+
+    .article-grid {
+        grid-template-areas:
+            "article"
+            "article"
+            "article"
+            "article"
+            "article"
+            "article";
+        grid-template-columns: 1fr;
+    }
+
+    .top-footer {
+        flex-direction: column;
+    }
+
+    .contact-col {
+        margin: 0 0 5rem 0;
+    }
+
+    .copyright {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .social-media {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-pic {
+        height: 200px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-nav {
+        display: grid;
+        grid-template-areas:
+            "about"
+            "courses"
+            "resources"
+            "services";
+        gap: 2rem;
+        justify-content: space-between;
+    }
+}
