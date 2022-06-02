@@ -46,15 +46,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        width: 90%;
+        width: 100%;
         padding: 5vw;
         position: absolute;
         top: 6rem;
-        left: 5vw;
+        left: 0;
         background-color: #04121f;
-        border: 0 solid white;
-        border-radius: 10px;
-        box-shadow: #64646f33 0px 7px 29px 0px;
     }
 
     ul {
